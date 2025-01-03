@@ -28,6 +28,12 @@ module.exports = {
         },
         extend: {
             colors: {
+                // primary: 'var(--primary)',
+                primary: {
+                    DEFAULT: 'var(--primary)',
+                    light: 'var(--primary-light)',
+                    dark: 'var(--primary-dark)',
+                },
                 background: 'var(--background)',
                 foreground: 'var(--foreground)',
             },
